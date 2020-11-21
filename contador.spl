@@ -1,0 +1,5 @@
+[Inputs]
+reloj
+[Outputs]
+=salida[2:0]=
+[BiDir]

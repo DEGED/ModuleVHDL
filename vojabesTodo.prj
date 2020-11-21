@@ -1,0 +1,4 @@
+vhdl work "deco1.vhd"
+vhdl work "Contador.vhd"
+vhdl work "clk_div.vhd"
+vhdl work "vojabesTodo.vhf"

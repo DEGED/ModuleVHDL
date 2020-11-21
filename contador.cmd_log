@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Contador.vhd -prj ModuleVHDL -o contador.spl -module contador -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e contador.spl {C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/contador.sym} 

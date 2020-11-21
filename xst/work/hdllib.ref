@@ -1,0 +1,12 @@
+EN m4_1e_mxilinx_vojabestodo NULL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.vhf" sub00/vhpl08 1603394919
+AR m2_1e_mxilinx_vojabestodo behavioral "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.vhf" sub00/vhpl07 1603394918
+AR vojabestodo behavioral "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.vhf" sub00/vhpl11 1603394922
+EN deco1 NULL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/deco1.vhd" sub00/vhpl00 1603394911
+AR m4_1e_mxilinx_vojabestodo behavioral "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.vhf" sub00/vhpl09 1603394920
+AR deco1 behavioral "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/deco1.vhd" sub00/vhpl01 1603394912
+EN vojabestodo NULL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.vhf" sub00/vhpl10 1603394921
+AR clk_div a "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/clk_div.vhd" sub00/vhpl03 1603394914
+EN m2_1e_mxilinx_vojabestodo NULL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.vhf" sub00/vhpl06 1603394917
+EN contador NULL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/Contador.vhd" sub00/vhpl04 1603394915
+EN clk_div NULL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/clk_div.vhd" sub00/vhpl02 1603394913
+AR contador behavioral "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/Contador.vhd" sub00/vhpl05 1603394916

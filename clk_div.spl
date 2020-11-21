@@ -1,0 +1,11 @@
+[Inputs]
+clock_50Mhz
+[Outputs]
+clock_1MHz
+clock_100KHz
+clock_10KHz
+clock_1KHz
+clock_100Hz
+clock_10Hz
+clock_1Hz
+[BiDir]

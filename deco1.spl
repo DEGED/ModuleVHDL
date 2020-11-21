@@ -1,0 +1,5 @@
+[Inputs]
+=xyz[2:0]=
+[Outputs]
+=mensaje[6:0]=
+[BiDir]

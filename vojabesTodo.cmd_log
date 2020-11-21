@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "vojabesTodo.ngc" vojabesTodo.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vojabesTodo_map.ncd vojabesTodo.ngd vojabesTodo.pcf 
+par -w -intstyle ise -ol high -t 1 vojabesTodo_map.ncd vojabesTodo.ncd vojabesTodo.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vojabesTodo.twx vojabesTodo.ncd -o vojabesTodo.twr vojabesTodo.pcf 
+bitgen -intstyle ise -f vojabesTodo.ut vojabesTodo.ncd 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vojabesTodo.ucf -p xc3s500e-fg320-4 "vojabesTodo.ngc" vojabesTodo.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vojabesTodo_map.ncd vojabesTodo.ngd vojabesTodo.pcf 
+par -w -intstyle ise -ol high -t 1 vojabesTodo_map.ncd vojabesTodo.ncd vojabesTodo.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vojabesTodo.twx vojabesTodo.ncd -o vojabesTodo.twr vojabesTodo.pcf -ucf vojabesTodo.ucf 
+bitgen -intstyle ise -f vojabesTodo.ut vojabesTodo.ncd 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vojabesTodo.ucf -p xc3s500e-fg320-4 "vojabesTodo.ngc" vojabesTodo.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vojabesTodo_map.ncd vojabesTodo.ngd vojabesTodo.pcf 
+par -w -intstyle ise -ol high -t 1 vojabesTodo_map.ncd vojabesTodo.ncd vojabesTodo.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vojabesTodo.twx vojabesTodo.ncd -o vojabesTodo.twr vojabesTodo.pcf -ucf vojabesTodo.ucf 
+bitgen -intstyle ise -f vojabesTodo.ut vojabesTodo.ncd 

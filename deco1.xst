@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/xst"
+elaborate
+-ifn deco1.prj
+-ifmt mixed

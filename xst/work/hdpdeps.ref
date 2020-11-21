@@ -1,0 +1,47 @@
+V3 27
+FL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/clk_div.vhd" 2020/10/15.15:18:06 P.20131013
+EN work/clk_div 1603394913 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/clk_div.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clk_div/a 1603394914 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/clk_div.vhd" \
+      EN work/clk_div 1603394913
+FL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/Contador.vhd" 2020/10/15.16:01:46 P.20131013
+EN work/contador 1603394915 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/Contador.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/contador/Behavioral 1603394916 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/Contador.vhd" \
+      EN work/contador 1603394915
+FL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/deco1.vhd" 2020/10/15.16:01:33 P.20131013
+EN work/deco1 1603394911 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/deco1.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/deco1/Behavioral 1603394912 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/deco1.vhd" \
+      EN work/deco1 1603394911
+FL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.vhf" 2020/10/22.14:26:43 P.20131013
+EN work/M2_1E_MXILINX_vojabesTodo 1603394917 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1E_MXILINX_vojabesTodo/BEHAVIORAL 1603394918 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.vhf" \
+      EN work/M2_1E_MXILINX_vojabesTodo 1603394917 CP AND3 CP AND3B1 CP OR2
+EN work/M4_1E_MXILINX_vojabesTodo 1603394919 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M4_1E_MXILINX_vojabesTodo/BEHAVIORAL 1603394920 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.vhf" \
+      EN work/M4_1E_MXILINX_vojabesTodo 1603394919 CP M2_1E_MXILINX_vojabesTodo \
+      CP MUXF5
+EN work/vojabesTodo 1603394921 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/vojabesTodo/BEHAVIORAL 1603394922 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/ModuleVHDL/vojabesTodo.vhf" \
+      EN work/vojabesTodo 1603394921 CP deco1 CP clk_div CP contador \
+      CP M4_1E_MXILINX_vojabesTodo CP VCC

@@ -1,0 +1,44 @@
+
+
+NET "CLK_50MHZ" LOC = C9;
+
+
+NET "Mensaje[6]" IOSTANDARD = LVTTL;
+NET "Mensaje[5]" IOSTANDARD = LVTTL;
+NET "Mensaje[4]" IOSTANDARD = LVTTL;
+NET "Mensaje[3]" IOSTANDARD = LVTTL;
+NET "Mensaje[2]" IOSTANDARD = LVTTL;
+NET "Mensaje[1]" IOSTANDARD = LVTTL;
+NET "Mensaje[0]" IOSTANDARD = LVTTL;
+NET "S0" IOSTANDARD = LVTTL;
+NET "S1" IOSTANDARD = LVTTL;
+NET "CLK_50MHZ" IOSTANDARD = LVCMOS33;
+
+
+NET "S0" LOC = N17;
+NET "S1" LOC = H18;
+
+
+NET "S0" PULLUP;
+NET "S1" PULLUP;
+
+
+NET "Mensaje[6]" LOC = D5;
+NET "Mensaje[5]" LOC = C5;
+NET "Mensaje[4]" LOC = A6;
+NET "Mensaje[3]" LOC = F7;
+NET "Mensaje[2]" LOC = B6;
+NET "Mensaje[1]" LOC = A4;
+NET "Mensaje[0]" LOC = B4;
+
+# PlanAhead Generated physical constraints 
+
+NET "led[2]" LOC = E11;
+NET "led[1]" LOC = E12;
+NET "led[0]" LOC = F12;
+
+# PlanAhead Generated IO constraints 
+
+NET "led[2]" IOSTANDARD = LVTTL;
+NET "led[1]" IOSTANDARD = LVTTL;
+NET "led[0]" IOSTANDARD = LVTTL;
